@@ -1,0 +1,207 @@
+:root {
+  --paragraf-color: #434455;
+  --heading-color: #2e2f42;
+  --btn-color: #4d5ae5;
+  --btn-bgcolor: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraf-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.logo-studio {
+  color: #2e2f42;
+}
+
+/* -------------------HEADER */
+
+.nav-link {
+  color: var(--heading-color);
+  font-weight: 500;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraf-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* ------------------- HERO */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-heading {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+/* ------------------- ABOUT */
+
+.about-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--heading-color);
+}
+
+.about-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-color);
+}
+
+/* ------------------- WHATWEDO */
+
+.whatwedo-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--heading-color);
+  text-align: center;
+}
+
+/* ------------------- TEAM */
+
+.team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--heading-color);
+  text-align: center;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-color);
+}
+
+/* ------------------- PORTFOLIO */
+
+.portfolio-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--heading-color);
+}
+
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--btn-color);
+  background-color: var(--btn-bgcolor);
+  text-transform: capitalize;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--heading-color);
+}
+
+.portfolio-description {
+  color: var(--paragraf-color);
+}
+
+/* ------------------- FOOTER */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-studio-bottom {
+  color: #f4f4fd;
+}
+
+.footer-descripton {
+  color: #e7e9fc;
+}
