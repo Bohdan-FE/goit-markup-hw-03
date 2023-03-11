@@ -160,7 +160,7 @@ text-align: center;
 }
 /* ------------------- ABOUT */
 .about.section {
-padding: 120px 0;
+padding: 120px 15px;
 }
 .about-list {
   display: flex;
@@ -216,7 +216,7 @@ padding: 120px 0;
 }
 
 .team-container {
-  padding: 120px 0;
+  padding: 120px 15px;
 }
 
 .team-heading {
