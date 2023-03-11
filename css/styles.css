@@ -67,7 +67,7 @@ header {
 .nav-container {
 display: flex;
   align-items: center;
-  padding: 24px 0 24px 0;
+  padding: 24px 15px ;
 }
 .nav {
   display: flex;
