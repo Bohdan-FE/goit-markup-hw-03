@@ -193,8 +193,8 @@ header {
 
 /* ------------------- WHATWEDO */
 
-.whatwedo.section {
-  padding-bottom: 120px;
+.whatwedo-container {
+  padding: 120px 15px;
 }
 .whatwedo-heading {
   font-weight: 700;
