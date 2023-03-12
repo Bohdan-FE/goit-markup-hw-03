@@ -384,7 +384,7 @@ header {
   max-width: 264px;
 }
 
-.footer-desc > .logo {
+.footer-container > .logo {
   display: block;
   margin-bottom: 18px;
 }
