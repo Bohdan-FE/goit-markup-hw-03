@@ -18,6 +18,19 @@ ul {
   padding: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -255,12 +268,12 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-item>img {
+.team-item > img {
   display: block;
   margin-bottom: 32px;
 }
 
-.team-item>h3 {
+.team-item > h3 {
   margin-bottom: 8px;
 }
 
@@ -273,7 +286,7 @@ header {
   text-align: center;
 }
 
-.team-item>p {
+.team-item > p {
   text-align: center;
   margin-bottom: 32px;
 }
@@ -335,7 +348,6 @@ header {
   background-color: var(--btn-bgcolor);
   text-transform: capitalize;
   border: 1px solid #e7e9fc;
-  border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
 }
@@ -372,7 +384,7 @@ header {
   max-width: 264px;
 }
 
-.footer-desc>.logo {
+.footer-desc > .logo {
   display: block;
   margin-bottom: 18px;
 }
